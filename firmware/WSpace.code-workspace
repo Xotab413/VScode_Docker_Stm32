@@ -52,5 +52,9 @@
         "astyle.cmd_options": [
             "--options=${workspaceFolder}/.astylerc",
         ],
+        "files.associations": {
+            "main.h": "c",
+            "stm32f3xx_hal.h": "c"
+        },
     }
 }
